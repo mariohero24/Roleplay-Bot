@@ -33,7 +33,7 @@ elif command == "reset":
 		else:
 			os.remove(f"characters/{file}")
 	else: 
-		os.remove("chararacters")
+		os.remove("characters")
 		print("Bot reset")
 		exec(open('startup.py').read())
   
