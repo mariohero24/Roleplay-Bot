@@ -1,3 +1,8 @@
 {
-"token": null
+    "token": "MTA0MjM1MTA5NDYzMTc3MjIyMA.GTy5k0.i9yWPa6URdPfYpN_se3tQT-MoILDq_0J8hSfrs",
+    "cogs": [
+        "roleplay",
+        "system"
+    ],
+    "fir": false
 }

@@ -12,8 +12,8 @@ class SYS(commands.Cog):
 			data = json.load(f1)
 			fir = data['fir']
 			if fir == True:
-				os.remove("characters/uwu")
-				print(f"https://discord.com/api/oauth2/authorize?client_id={self.bot.user.id}&permissions=537182208&scope=bot%20applications.commands")
+				os.remove("characters/uwu.json")
+				print(f"https://discord.com/api/oauth2/authorize?client_id={self.bot.user.id}&permissions=536887296&scope=bot%20applications.commands")
 		with open("data.json", "w") as f2:
 			data2 = {
 				"token": data['token'], "cogs": data['cogs'], "fir": False
@@ -31,6 +31,9 @@ class SYS(commands.Cog):
 					if p[1]
 				]
 			))
+		else:
+			with open("errors.txt", "a") as f:
+				f.write(f"{error}\n")
 
 
 def setup(bot):
