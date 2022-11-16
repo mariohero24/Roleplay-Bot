@@ -2,8 +2,6 @@ import os, json
 
 print("Enter a command or help")
 
-standard_input="start"
-
 command = input()
 if command == "help":
 	print("start - Starts the bot\ntoken [token] - Sets the bot token\nreset - Resets the entire bot")
