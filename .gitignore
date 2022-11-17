@@ -1,0 +1,5 @@
+cogs/__pycache__/*
+characters/*
+__pycache__/*
+devstuff/*
+errors.txt
