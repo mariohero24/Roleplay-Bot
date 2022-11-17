@@ -29,7 +29,7 @@ elif command == "reset":
 		json.dump(data2, f2, indent=0)
 	for file in os.listdir("characters"):
 		for fil in os.listdir(f"characters/{file}"):
-			os.remove(fil)
+			os.remove(f"characters/{file}/{fil}")
 		else:
 			os.remove(f"characters/{file}")
 	else: 
